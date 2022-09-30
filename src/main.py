@@ -53,6 +53,10 @@ if __name__ == "__main__":
 
         current_thread_count += growth_per_loop
         loop_num += 1
+
+        # Reset climb
+        if loop_num % cycle_duration == 0:
+            current_thread_count = average_rps
         time.sleep(1)
 
     # Loop complete

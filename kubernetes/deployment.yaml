@@ -21,6 +21,8 @@ spec:
             value: "http://35.186.241.37/"
           - name: MAX_RPS
             value: "150"
+          - name: DURATOIN
+            value: "120"
         resources:
           limits:
             memory: 128Mi
